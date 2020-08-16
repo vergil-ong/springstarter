@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: demo-service
+  jackson:
+    time-zone: GMT+8
+    default-property-inclusion: NON_NULL
+    date-format: yyyy-MM-dd HH:mm:ss
+
+server:
+  port: 9001
+  tomcat:
+    max-threads: 500
+    max-connections: 10000
+
+rpc:
+  http:
+    host: https://www.baidu.com
