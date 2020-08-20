@@ -15,3 +15,7 @@ server:
 rpc:
   http:
     host: https://www.baidu.com
+
+prop:
+  test1: 001
+  test2: 002
